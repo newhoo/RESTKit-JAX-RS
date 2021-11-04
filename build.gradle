@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '0.4.10'
+}
+
+group 'io.github.newhoo.restkit.ext'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+intellij {
+    version '2021.1'
+    pluginName 'RESTKit-JAX-RS'
+    updateSinceUntilBuild false
+    downloadSources = true
+    plugins = ['java', 'RESTKit']
+    sandboxDirectory = "${rootProject.rootDir}/idea-sandbox"
+}
