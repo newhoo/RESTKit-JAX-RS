@@ -13,6 +13,6 @@ public class JaxrsResolverProvider implements RestfulResolverProvider {
 
     @Override
     public RequestResolver createRequestResolver(@NotNull Project project) {
-        return project.getComponent(JaxrsResolver.class);
+        return new JaxrsResolver();
     }
 }

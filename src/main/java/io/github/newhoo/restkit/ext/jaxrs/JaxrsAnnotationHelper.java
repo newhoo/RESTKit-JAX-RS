@@ -7,7 +7,7 @@ import com.intellij.psi.PsiClass;
 import com.intellij.psi.PsiLiteralExpression;
 import com.intellij.psi.PsiMethod;
 import com.intellij.psi.PsiReferenceExpression;
-import io.github.newhoo.restkit.restful.MethodPath;
+import io.github.newhoo.restkit.feature.javaimpl.MethodPath;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
